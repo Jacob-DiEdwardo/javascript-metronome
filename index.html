@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>JavaScript Metronome</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1>METRONOME</h1>
+    <h3>by Jacob DiEdwardo</h3>
+    <br>
+
+    <div id="metronome-shape">
+      <div>
+        <div id="screen">
+          <div class="screen-text" id="screen-left">60</div>
+          <div class="screen-text" id="screen-right">1/4</div>
+        </div>
+        <div class="up-arrow" id="tempo-up"></div>
+        <div class="up-arrow" id="beat-up"></div>
+        <p id="tempo-label">Tempo</p>
+        <p id="beat-label">Beat</p>
+      </div>
+      <div>
+        <button id="start-btn">START</button>
+        <div id="light">
+          <i class="material-icons" id="mute-icon">&#xe04f;</i>
+        </div>
+        <div class="down-arrow" id="tempo-down"></div>
+        <div class="down-arrow" id="beat-down"></div>
+      </div>
+    </div>
+
+  <audio id="high-beep" src="audio/high-beep.wav"></audio>
+  <audio id="low-beep" src="audio/low-beep.wav"></audio>
+  
+  <script src="script.js"></script>
+  </body>
+
+</html>

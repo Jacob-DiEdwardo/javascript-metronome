@@ -1,0 +1,131 @@
+
+#metronome-shape {
+    border: 1px solid black;
+    position: relative;
+    height: 100px;
+    width: 230px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(162, 161, 187);
+}
+
+#screen {
+    border: 3px solid black;
+    height: 50px;
+    width: 120px;
+    position: relative;
+    background-color: rgb(241, 198, 56);
+}
+
+.screen-text {
+    position: absolute;
+    height: 50px;
+    width: 60px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#screen-right {
+    left: 60px;
+}
+
+.up-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 20px 34.6px 20px;
+    border-color: transparent transparent #0d0d0f transparent;
+    position: absolute;
+}
+
+.down-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 34.6px 20px 0 20px;
+    border-color: #0d0d0f transparent transparent transparent;
+    position: absolute;
+}
+
+.up-arrow:hover {
+    border-color: transparent transparent rgb(76, 91, 134) transparent;
+}
+
+.up-arrow:active {
+    border-color: transparent transparent rgb(241, 198, 56) transparent;
+}
+
+.down-arrow:hover {
+    border-color: rgb(76, 91, 134) transparent transparent transparent;
+}
+
+.down-arrow:active {
+    border-color: rgb(241, 198, 56) transparent transparent transparent;
+}
+
+#tempo-up {
+    left: 160px;
+    top: 20px;
+}
+
+#beat-up {
+    left: 215px;
+    top: 20px;
+}
+
+#tempo-label {
+    position: absolute;
+    left: 160px;
+    top: 47px;
+}
+
+#beat-label {
+    position: absolute;
+    left: 220px;
+    top: 47px;
+}
+
+#tempo-down {
+    left: 160px;
+    bottom: 15px;
+}
+
+#beat-down {
+    left: 215px;
+    bottom: 15px;
+}
+
+#start-btn {
+    position: absolute;
+    width: 60px;
+    bottom: 15px;
+    left: 20px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#start-btn:hover {
+    border: 2px solid rgb(60, 60, 233);
+}
+
+#light {
+    position: absolute;
+    left: 105px;
+    bottom: 16px;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(0, 84, 139);
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#mute-icon {
+    display:none;
+}
+
+#light:hover {
+    background-color: rgb(253, 30, 0);
+    border: 2px solid rgb(255, 230, 0);
+}
